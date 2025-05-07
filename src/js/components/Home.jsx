@@ -23,8 +23,8 @@ const Home = () => {
 	}
 
 useEffect(() => {
-	//API GET request
-	fetch("https://playground.4geeks.com/todo/users/N8Atest"
+	//API GET request 
+	fetch("https://playground.4geeks.com/todo/users/N8Atest" //POST
 	)
 	.then((response) => response.json())
 	.then((data) => console.log(data)) // data --> obect {name, toDos:[]}
