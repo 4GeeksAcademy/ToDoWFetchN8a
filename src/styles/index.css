@@ -9,3 +9,78 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+/* 
+
+    You can write your own styles here...
+    
+    
+    ...Or you can use the import command to include 
+    other sylesheets into your bunde as well, e.j:
+    
+    import 'relative/path/to/stylesheet.scss';
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
+
+.box{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100dvw;
+    height: 100dvh;
+    background-color: #F0F0F0;
+    font-family: "zain", sans-serif;
+    font-size: 50px;
+    font-weight: lighter;
+    color: rgba(85, 84, 90, 0.568);
+    overflow-y: scroll;
+}
+
+#title {
+    color: #EBD9DA;
+    font-size: 150px;
+    font-weight: lighter;
+}
+
+.text-box {
+    color:  rgba(85, 84, 90, 0.168);
+    width: 85%;
+    height: 40px;
+    font-weight: lighter;
+    outline: none;
+    border: 1px solid #F7F7F7;
+    background-color: #F7F7F7;
+}
+
+
+ul {
+    background-color: #F7F7F7;
+    border: 2px solid #EBD9DA;
+    margin: 300px;
+    margin-top: 0px;
+    text-align: initial;
+    text-indent: 40px;
+    filter: drop-shadow(0px 3px 5px #e2c9ca) drop-shadow(0px 10px 2px #EBD9DA);
+
+    
+}
+
+ul li {
+    list-style: none;
+    height: 20%;
+    border-bottom: 2px solid #F3F0F1;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+#counter {
+    text-indent: 0px;
+    font-size: 20px;
+}
+
+.delete {
+    color:hsl(357, 100%, 89%);
+    padding-right: 30px;
+}
