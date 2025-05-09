@@ -78,14 +78,14 @@ const panic= async ()=>{
 	},[])
 
 return (
-	<div className="box">
+	<div className="box container-fluid">
 	<div className="text-center">
 		<div id="title">ToDoList</div>
 		<div id="container-toDo-list">
 			<ul>
 				<li>
 					<input
-					className="text-box"
+					className="text-box container-fluid"
 					type="text"
 					placeholder="What needs to be done?"
 					value={newToDo}
