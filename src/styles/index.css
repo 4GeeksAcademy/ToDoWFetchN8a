@@ -84,3 +84,11 @@ ul li {
     color:hsl(357, 100%, 89%);
     padding-right: 30px;
 }
+
+.button {
+    background-color: #e2c9ca;
+    width: 12%;
+    border: #EBD9DA;
+    color:#EBD9DA;
+
+}

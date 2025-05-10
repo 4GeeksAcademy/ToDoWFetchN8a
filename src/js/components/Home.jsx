@@ -108,7 +108,9 @@ return (
 			</ul>
 		</div>
 	</div>
-	<button className="button button-danger" onClick={()=>panic()}>PANIC</button>
+	<div className="button">
+	<button className="button" onClick={()=>panic()}>PANIC</button>
+	</div>
 	</div>
 )
 
