@@ -28,7 +28,6 @@ const Home = () => {
 			fetch("https://playground.4geeks.com/todo/users/N8Atest")
 			.then((response)=> response.json())
 			.then((data)=> setToDoList(data.todos))
-			.then((data)=>console.log(data.todos))
 			//setTodoList([...todoList,newTodo]);
 		}
 		console.log([...toDoList,newToDo]);
