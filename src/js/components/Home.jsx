@@ -108,7 +108,7 @@ return (
 			</ul>
 		</div>
 	</div>
-	<div className="button">
+	<div className="button container-fluid">
 	<button className="button" onClick={()=>panic()}>PANIC</button>
 	</div>
 	</div>
